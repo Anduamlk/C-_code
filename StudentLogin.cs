@@ -45,7 +45,7 @@ namespace Exam__System
                     da.Fill(dt);
                     if (dt.Rows.Count > 0)
                     {
-                        MessageBox.Show("Login Successfully");
+                        MessageBox.Show("Login Successfully");  
                         studtake ad = new studtake();
                         ad.ShowDialog();
                     }
